@@ -140,7 +140,18 @@ section {
     align-items: center;
     background-color: #DFD0B8;
     justify-content: space-between; 
+}
 
+.AboutMe h3{
+    color:#3C5B6F;
+}
+
+.AboutMe p{
+    color:#948979;
+}
+
+.AboutMe li{
+    color: #948979;
 }
 
 
@@ -150,9 +161,9 @@ section {
     float: left;
     display: block;
     transition: 0.7s ease;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
+
 
 .tab-titles{
     display: flex;
@@ -256,6 +267,11 @@ transition: 0.5s;
     transition: 0.7s ease;
 }
 
+.project-card span{
+    font-family:serif ;
+    color:#153448;
+}
+
 .project-card:hover {
    transform: scale(1.1);
 }
@@ -295,6 +311,10 @@ transition: 0.5s;
 }
 .contact {
     background-color: #DFD0B8;
+}
+
+.contact p{
+    color: #948979;
 }
 .contact .icon{
     font-size: 4.5em;
@@ -382,5 +402,11 @@ transition: 0.5s;
     body{
         font-size: 10px;
      
+    }
+}
+
+@media (max-width: 1023px) {
+    .AboutMe img  {
+        display: none;
     }
 }
